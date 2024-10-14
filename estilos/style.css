@@ -1,0 +1,208 @@
+body{
+    background-color: rgba(0, 0, 0, 0.753);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.644);
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    position: fixed;
+}
+
+header p{
+    font-size: 45px;
+    color: white;
+}
+
+.nome {
+    font-size: 45px;
+    color: orange;
+    padding-left: 10px;
+}
+
+.links{
+    margin-left: auto;
+    padding-right: 150px;
+    font-size: 18px;
+}
+
+.links a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+.nomep{
+    padding: 15px;
+}
+
+main{
+
+    background-color: #1C1C1C;
+    color: white;
+}
+
+main p{
+    font-size: 30px;
+}
+
+section.intro{
+    width: 100vw;
+    background-image: url(../imagens/teclado_preto02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+    padding-top: 350px;
+    margin: auto;
+    color: white;
+}
+
+section.intro p{
+    font-size: 35px;
+}
+
+section.intro h1{
+    font-size: 60px;
+}
+section.intro strong{
+    color: orange;
+}
+
+section.intro img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    padding: 15px;
+}
+section hr{
+    margin: 0;
+    padding: 0;
+    height: 2px;
+    width: 100vw;
+    border-radius: 25px;
+    background-color: orange;
+}
+
+.scroll{
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    color: white;
+    letter-spacing: 10px;
+    margin: auto;
+}
+
+.topicos{
+    width: 260px;
+    margin: 20px 20px 0px 100px;
+    padding: 20px 20px 0px 0px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+hr{
+    height: 2px;
+    width: 260px;
+    margin: 0px 20px 20px 100px;
+    border-radius: 25px;
+    background-color: orange;
+}
+
+section.sobre{
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+section.sobre strong{
+    color: orange;
+}
+
+.iconl{  
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.iconl img{
+    background-color: rgba(128, 128, 128, 0.384);
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.linhad{
+    margin: 0;
+    padding: 0;
+    height: 2px;
+    width: 100vw;
+    border-radius: 25px;
+    background-color: orange;
+}
+
+.projetos hr{
+    height: 2px;
+    width: 260px;
+    margin: 0px 20px 20px 100px;
+    border-radius: 25px;
+    background-color: orange;
+}
+
+.imgprojetos{
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    margin-left: 100px;
+}
+
+.imgprojetos img{
+    border: 1px solid orange;
+    box-shadow: 2px 2px 5px black;
+}
+
+.imgprojetos p{
+   margin: 20px;
+}
+
+.imgprojetos p strong{
+    color: orange;
+    font-size: 18px;
+}
+
+.imgprojetos p a{
+    color: white;
+    text-decoration: none;
+}
+
+.imgprojetos p a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white;
+    text-align: center;
+}
+footer p{
+    margin: 5px;
+}
+footer a{
+    color: orange;
+}
